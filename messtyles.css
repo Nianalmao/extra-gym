@@ -1,0 +1,162 @@
+header{
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 18vh;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 50px;
+    color: floralwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 span{
+    color: red;
+}
+main nav{
+    height: 15vh;
+    background-color: silver;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+nav ul li a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li:hover{
+    background-color: whitesmoke;
+    transform: scale(1.5);
+    transition-duration: 1s;
+    transition-property: all;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+nav ul li a:visited{
+    color: rgb(255, 144, 144);
+}
+section iframe{
+    border-style: none;
+    height: 100vh;
+    width: 75vw;
+}
+section{
+    height: 100%;
+    display: flex;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+
+    border-style: solid 2px green;
+}
+aside img{
+    height: 40vh;
+}
+footer{
+    height: 15vh;
+    background-color: silver;
+    text-align: center;
+    padding-top: 5px;
+    margin: auto;
+}
+figure legend{
+    width: 22vw;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 30px;
+    font-weight: bolder;
+    font-size: large;
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
+figure p{
+    text-align: justify;
+}
+figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+
+}
+.container{
+    display:flex;
+    flex-direction: row;
+}
+form{
+    width: 600px;
+}
+form fieldset select{
+    margin-bottom: 70px;
+    font-style: italic;
+}
+form fieldset{
+    height: 55vh;
+    margin-top: 100px;
+    border: solid 1px rgb(255, 14, 54);
+}
+form fieldset legend{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+section{
+    margin: auto;
+    text-align: center;
+}
+form fieldset label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input[type="submit"] {
+    text-align: center;
+    font-size: large;
+    text-shadow: 0px 1px 1px red;
+    border: 2px solid;
+}
+input[type="reset"] {
+    text-align: center;
+    font-size: large;
+    text-shadow: 0px 1px 1px red;
+    border: 2px solid;
+}
+input[type="submit"]:hover {
+    background-color: rgb(212, 165, 255);
+    cursor: pointer;
+}
+input[type="reset"]:hover {
+    background-color: rgb(212, 165, 255);
+    cursor: pointer;
+}
+body{
+    margin: auto;
+    text-align: center;
+}
+div figure img:active{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transition-duration: 2s;
+    transition-property: all;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="messtyles.css">
+</head>
+
+<body>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Inscription</legend>
+                <label for="radio">civilite* </label>
+                <div class="radio-buttons">
+                    <input type="radio" name="radio" value="Madame">Madame
+                    <input type="radio" name="radio" value="Monsieur">Monsieur
+                </div>
+                <label for="name">Nom et Prenom* </label>
+                <input type="text" name="name">
+                <br>
+                <label for="tlph">Telephone portable* </label>
+                <input type="text" name="name">
+                <br>
+                <label for="weight">Poids* </label>
+                <input type="number" name="weight">
+                <br>
+                <label for="choix">Options: </label>
+                <input type="checkbox" name="choix" value="1"> Fight Park
+                <input type="checkbox" name="choix" value="2"> Coaching en Lingne
+                <input type="checkbox" name="choix" value="3"> Entrenement avec un invite
+                <br>
+                <label for="off">Offres </label>
+                <select name="off">
+                    <option value="Choisir une offre">Choisir une offre</option>
+                    <option value="classic">classic</option>
+                    <option value="Access+">Access+</option>
+                    <option value="Ultimate">Ultimate</option>
+                  </select>
+                  <br>
+                  <input type="submit" value="Submit">
+                  <input type="reset" value="reset">
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
